@@ -1,0 +1,73 @@
+Prompt Chat GPT
+1. Soal Pemrograman - Penjumlahan Nilai Siswa
+Deskripsi Masalah
+Data nilai siswa disimpan dalam sebuah rak fisik yang tersusun rapat. Perhatikan pola penyimpanan pada gambar di bawah ini untuk memahami bagaimana kelompok siswa dipisahkan. Input:
+
+Jumlah total data (N).
+Deret nilai (n1, n2, …, n).
+Kode kelompok siswa
+Tugas Buatlah program yang mampu menentukan total nilai hanya untuk kelompok yang diminta.  yohana 75, ju;ius 65, indah 80, dan wilson 70
+2. berikan contoh inputannya
+3. APA SEBENANRNYA YANG DIMINTA OADA SOAL'
+4. ini adalah kode ku, apakah sudah sesuai dengan instruksi soal? import java.util.Scanner;
+
+public class Driver2 {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        // Input jumlah data
+        System.out.print("Masukkan jumlah data (N): ");
+        int N = input.nextInt();
+
+        int[] nilai = new int[N];
+
+        // Input deret nilai
+        System.out.println("Masukkan deret nilai:");
+        for (int i = 0; i < N; i++) {
+            nilai[i] = input.nextInt();
+        }
+
+        // Input kode kelompok
+        System.out.print("Masukkan kode kelompok (L/P): ");
+        char kode = input.next().toUpperCase().charAt(0);
+
+        int total = 0;
+
+        for (int i = 0; i < N; i++) {
+
+            // Pola rak tersusun rapat:
+            // Index genap = P
+            // Index ganjil = L
+
+            if (kode == 'P' && i % 2 == 0) {
+                total += nilai[i];
+            }
+            else if (kode == 'L' && i % 2 != 0) {
+                total += nilai[i];
+            }
+        }
+
+        System.out.println("Total nilai kelompok " + kode + " adalah: " + total);
+
+        input.close();
+    }
+}
+5.  java Driver2
+Error: Main method not found in class Driver2, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+PS C:\Users\ASUS\Documents\GitHub\quiz1-pbo-VentyolaNapitupulu\bin> 
+
+6. apa mksd in PS C:\Users\ASUS\Documents\GitHub\quiz1-pbo-VentyolaNapitupulu\bin> java Driver2
+Error: Main method not found in class Driver2, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+
+7. menggunakan ini public class Driver2 {
+    
+}
+
+8. jadi berikan kodenya 
+9. jadi yang sesuai sama insstruksi soal h\apa? yang dibilang asdosku nya gini, namanya itu kami ga sembarangan buat, ada nama laki laki dan perempuan, lihat polanya, gitu

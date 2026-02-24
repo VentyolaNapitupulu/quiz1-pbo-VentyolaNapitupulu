@@ -1,0 +1,29 @@
+1. Setiap mahasiswa yang datang menyerahkan cucian harus dicatat informasi berupa nama, tanggal masuk cucian, dan status cucian yang bisa berupa DICUCI atau SELESAI. Program kemudian harus dapat mempermudah staf dalam membuat laporan harian, yang mencakup total cucian yang masuk pada hari tersebut serta daftar cucian yang belum selesai dicuci. Tidak diperlukan perhitungan biaya karena layanan laundry sudah termasuk dalam SPP mahasiswa. Fokus utama dari program ini adalah mempermudah pencatatan dan pemantauan status cucian setiap hari.
+2. Buatlah sebuah sistem yang dapat mendukung operasional sehari-hari di Laundry Del.
+3. mungkin bisa pencatatan transaksi, tapi di del ga ada hitung total biaya lagi, karena udah disatukan degan spp, mungkin yang lain yang sejenisny gimana
+4. mungkin ni, Buatlah sebuah sistem yang dapat mendukung operasional sehari-hari di Laundry Del.  ide apa yang menarik untuk tugas kode java ku dengan soal dan cerita / studi kasus 3. Laporan Harian Laundry
+
+Deskripsi:
+Program ini mencatat transaksi cucian tiap hari dan menampilkan laporan:
+
+Total cucian masuk hari ini.
+
+Jumlah cucian per layanan (cuci, setrika, cuci+setrika).
+
+Daftar cucian yang belum selesai.
+
+Konsep Java yang digunakan:
+
+Class LaundryItem → mahasiswa, layanan, status, tanggal masuk.
+
+ArrayList untuk menampung cucian.
+
+Looping dan kondisi untuk menghitung jumlah per layanan.
+
+5. layanannya hanya cuci aja
+6. ya, dengan public class Driver3 {
+    
+}
+
+7. contoh inputannya bagaimana
+8. keuntungan untuk mahasiswa apa?
